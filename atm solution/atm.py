@@ -44,6 +44,6 @@ def atm(request,amount):
         if paper_5 >= 1:
              print "count paper 5 : " + str(paper_5) +" papers"
         else:
-             print "rest : " + str(rest) + " papers"       
+             print "rest : " + str(rest)       
 
 atm(245,500)
